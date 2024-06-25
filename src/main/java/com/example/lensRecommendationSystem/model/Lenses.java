@@ -29,12 +29,13 @@ public class Lenses {
     private String lensMount;
     private String lensType;
     private String photographyType;
+    private String releaseDate;
 
 
     public Lenses(String lensName, String lensLink, Double lensPrice, Double lensRating,
                   Double minFocalLength, Double maxFocalLength, Double maxAperture,
                   String imageStabilization, String lensBrand, String lensMount,
-                  String lensType, String photographyType) {
+                  String lensType, String photographyType, String releaseDate) {
         this.lensName = lensName;
         this.lensLink = lensLink;
         this.lensPrice = lensPrice;
@@ -47,6 +48,7 @@ public class Lenses {
         this.lensMount = lensMount;
         this.lensType = lensType;
         this.photographyType = photographyType;
+        this.releaseDate = releaseDate;
     }
 
 }
